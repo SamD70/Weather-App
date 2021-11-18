@@ -27,9 +27,45 @@ body {
   color: white;
 }
 
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input input {
+  height: 40px;
+}
+
+.input .inputValue {
+  width: 60vw;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.input .submit {
+  width: 10vw;
+  font-weight: bold;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.city {
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .location,
 .temperature {
-  height: 30vh;
+  height: 20vh;
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;

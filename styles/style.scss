@@ -15,9 +15,38 @@ body{
     font-family: sans-serif;
     color: white;
 }
+.input{
+    display: flex;
+
+    input{
+        height: 40px;
+
+    }
+    .inputValue{
+        width: 60vw;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .submit{
+        width: 10vw;
+        font-weight: bold;
+    }
+    
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.city{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
 .location,
 .temperature{
-    height: 30vh;
+    height: 20vh;
     width: 50%;
     display: flex;
     justify-content: space-around;
